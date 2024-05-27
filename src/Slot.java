@@ -4,5 +4,9 @@ public class Slot {
     String ticketId;
     Vehicle vehicle;
 
-    public Slot () {}
+    public Slot (String type) {
+        this.type = type;
+        this.ticketId = null;
+        this.vehicle = null;
+    }
 }
